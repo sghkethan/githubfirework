@@ -1,6 +1,6 @@
 $(function() {
     $('#yes').click(function(event) {
-        modal('烟花表演即将开始！(#^.^#)', function() {
+        modal('这里是李炳绪女友的专属区域(#^.^#)', function() {
             $('.page_one').addClass('hide');
             $('.page_two').removeClass('hide');
             // typeWrite();
@@ -9,20 +9,20 @@ $(function() {
         });
     });
     $('#no').click(function(event) {
-        modal('嘘~你即将进入一个烟花的梦境世界！', A);
+        modal('不承认？', A);
     });
 });
 
 function A() {
-    modal('提示：闭上眼睛许个愿，烟花会帮你实现哦~', B);
+    modal('晚了晚了 点了这个就会变成李炳绪小哥哥的女朋友', B);
 }
 
 function B() {
-    modal('许完愿了嘛(#^.^#)', C);
+    modal('愿得一人心 白首不分离', C);
 }
 
 function C() {
-    modal('点击按钮，解锁这场童话般的烟花秀！', function() {
+    modal('我现在，正式申请进入你的生活！', function() {
         fireworks();
     });
 }

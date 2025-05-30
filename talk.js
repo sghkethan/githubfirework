@@ -1,6 +1,6 @@
 $(function() {
     $('#yes').click(function(event) {
-        modal('这里是lbx女友的专属区域(#^.^#)', function() {
+        modal('快来欣赏一场梦幻烟花秀(#^.^#)', function() {
             $('.page_one').addClass('hide');
             $('.page_two').removeClass('hide');
             // typeWrite();
@@ -9,12 +9,12 @@ $(function() {
         });
     });
     $('#no').click(function(event) {
-        modal('不承认？', A);
+        modal('这是一个有魔力的菜单', A);
     });
 });
 
 function A() {
-    modal('晚了晚了 点了这个就会变成lbx小哥哥的女朋友', B);
+    modal('据说点了这个就会变成lbx小哥哥的女朋友', B);
 }
 
 function B() {
@@ -22,7 +22,7 @@ function B() {
 }
 
 function C() {
-    modal('我现在，正式申请进入你的生活！', function() {
+    modal('我现在，正式申请进入姐姐的生活~', function() {
         fireworks();
     });
 }

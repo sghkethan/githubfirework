@@ -4,7 +4,7 @@ var octx = ocas.getContext("2d");
 var ctx = canvas.getContext("2d");
 ocas.width = canvas.width = window.innerWidth;
 ocas.height = canvas.height = window.innerHeight;
-var bigbooms = [];
+var bigbooms = []; 
 
 // window.onload = function() {
 //     initAnimate();
